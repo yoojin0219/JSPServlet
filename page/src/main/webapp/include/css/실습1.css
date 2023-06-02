@@ -1,0 +1,151 @@
+        *{
+            margin: 0;
+            /* padding: 0px; */
+            box-sizing: border-box;
+        }
+        .wrap{
+            width: 1000px;
+            height: 800px;
+
+            /* background-color: bisque; */
+            margin: 0px auto;
+        }
+
+        header{
+            width: 100%;
+            height: 120px;
+            /* background-color: thistle; */
+        }
+        main{
+            width: 100%;
+            height: 600px;
+            /* background-color: lightcyan; */
+            margin-top: 10px;
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            /* background-color: palegreen; */
+        }
+        .logo{
+            width: 100%;
+            height: 90px;
+            /* background-color: lightpink; */
+        }
+        nav{
+            width: 100%;
+            height: 30px;
+            background-color: #64AD16;
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            line-height: 30px;
+        }
+        #logo{
+            padding: 5px;
+        }
+        #title{
+            padding-left: 100px;
+            padding-bottom: 8px;
+        }
+        header nav ul{
+            list-style: none;
+            padding: 0px;
+        }
+        header nav ul li{
+            width: 25%;
+            float: left;
+        }
+        header nav ul li a{
+            display: inline-block;
+            width: 100%;
+        }
+        header nav ul li a:hover{
+            background-color: green;
+        }
+        .leftSide{
+            width: 180px;
+            height: 600px;
+            /* background-color: lightblue; */
+            float: left;
+        }
+        main>section{
+            width: 550px;
+            height: 600px;
+            /* background-color: lightsteelblue; */
+            float: left;
+        }
+        .rightSide{
+            width: 270px;
+            height: 600px;
+            /* background-color: lightskyblue; */
+            float: left;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+      
+        #left{
+            width: 180px;
+            height: 600px;
+        }
+        #id{
+            float: left;
+            border: 1px solid gray;
+            border-radius: 5px;
+            height: 30px;
+        }
+        #password{
+            float: left;
+            border: 1px solid gray;
+            border-radius: 5px;
+            height: 30px;
+        }
+        #login_button{
+            border: 1px solid gray;
+            border-radius: 5px;
+            width: 70px;
+            height: 60px;
+            float: right;
+            margin-right: 10px;
+        
+        }
+        #login_link{
+            text-align: center;
+        }
+        #login_form_input{
+            float: left;
+        }
+        #login_link a{
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-size: small;
+            width: 80px;
+        }
+
+        main .rightSide #banner{
+            width: 250px;
+        }
+        main .rightSide #chat{
+            width: 250px;
+        }
+        
+        main #main_img{
+            list-style: none;
+            padding: 0px;
+        }
+        main #main_img li{
+            
+            text-align: center;
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        main #main_img li img{
+            width: 100%;
+        }
+        footer{
+            text-align: center;
+        }
